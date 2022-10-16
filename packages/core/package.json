@@ -1,0 +1,17 @@
+{
+  "name": "@restore/core",
+  "version": "0.1.0",
+  "description": "restore core",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "check:format": "prettier -c src",
+    "check:types": "tsc --noEmit",
+    "check:all": "zx ./scripts/check_all.mjs"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4",
+    "zx": "^7.1.1"
+  }
+}

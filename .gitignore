@@ -1,0 +1,9 @@
+# node
+node_modules
+
+# system
+.DB_Store
+
+# output
+build
+dist

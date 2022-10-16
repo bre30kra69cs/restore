@@ -1,0 +1,25 @@
+{
+  "name": "restore",
+  "description": "data manager",
+  "repository": "git@github.com:bre30kra69cs/restore.git",
+  "author": "Andrey Krasovsky <an.krasowsckij@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "check:format": "lerna run check:format",
+    "check:types": "lerna run check:types",
+    "check:all": "lerna run check:all",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.0",
+    "husky": "^7.0.0",
+    "lerna": "^6.0.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4",
+    "zx": "^7.1.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
