@@ -7,12 +7,18 @@
   "private": true,
   "scripts": {
     "check:format": "lerna run check:format",
+    "check:lint": "lerna run check:lint",
     "check:types": "lerna run check:types",
+    "check:tests": "lerna run check:tests",
     "check:all": "lerna run check:all",
     "prepare": "husky install"
   },
   "devDependencies": {
     "@types/node": "^18.11.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
     "husky": "^7.0.0",
     "lerna": "^6.0.1",
     "prettier": "^2.7.1",

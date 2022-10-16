@@ -1,12 +1,15 @@
 # node
-
 node_modules
 
 # system
-
 .DB_Store
 
 # output
-
 build
 dist
+
+# configs
+*.config.js
+
+# scripts
+scripts
